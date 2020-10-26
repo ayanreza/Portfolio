@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="includes/about_me.css">
+    <title>Ayan Reza</title>
+</head>
+
+<body>
+
+
+<div class="homepage">
+    <div class="landing">
+        <div class="row">
+            <div class="col s6 offset-s1">
+                {% include 'includes/black_white.html' %}
+                <h1 class="left-align">
+                    {% include 'includes/black_white.html' %}
+                    {% include 'includes/typewriter.html' %}
+                </h1>
+
+            </div>
+        </div>
+
+        {% include 'includes/scroll_button.html' %}
+    </div>
+
+
+    <div class="about_me">
+        <div class="container">
+            <code class="flow-text">
+
+                {% include 'includes/ayan.html' %}
+            </code>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="middle">
+    <div class="container">
+        {% include 'includes/footer.html' %}
+    </div>
+
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
